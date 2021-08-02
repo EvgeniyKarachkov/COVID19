@@ -26,6 +26,7 @@ class DataTableViewCell: UITableViewCell {
         
         let url = CountryCode.getURLofImage(dict: allCountryCodes , value: data.country!)
         
+        
         DispatchQueue.global().async {
             
             let image: UIImage?
